@@ -1,4 +1,8 @@
 # Logs
+.vscode/
+/__asset__
+/build
+/tmp
 logs
 *.log
 npm-debug.log*

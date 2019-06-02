@@ -1,0 +1,53 @@
+{
+  "name": "genepro-diet-evalue",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "await-timeout": "^0.5.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "connected-react-router": "^6.4.0",
+    "history": "^4.9.0",
+    "immutability-helper": "^3.0.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-sweet-progress": "^1.1.2",
+    "recharts": "^1.6.2",
+    "redux": "^4.0.1",
+    "redux-act": "^1.7.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "universal-cookie": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5"
+  }
+}
