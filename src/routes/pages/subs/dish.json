@@ -2455,7 +2455,7 @@
 		{
 			"id": 130,
 			"name": "红烧豆腐",
-			"energy_kcal": 89219,
+			"energy_kcal": 89.219,
 			"ext$$fiber": 1.09,
 			"macro$$carbohydrate": 2.85,
 			"macro$$fat": 7.91,
@@ -2474,7 +2474,7 @@
 		{
 			"id": 131,
 			"name": "麻婆豆腐",
-			"energy_kcal": 79372,
+			"energy_kcal": 79.372,
 			"ext$$fiber": 1,
 			"macro$$carbohydrate": 2.88,
 			"macro$$fat": 13.88,
@@ -2493,7 +2493,7 @@
 		{
 			"id": 132,
 			"name": "香菇烩豆腐",
-			"energy_kcal": 79298,
+			"energy_kcal": 79.298,
 			"ext$$fiber": 1,
 			"macro$$carbohydrate": 3.44,
 			"macro$$fat": 6.54,

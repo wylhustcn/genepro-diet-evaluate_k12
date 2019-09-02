@@ -88,9 +88,9 @@ export default function Home({ history }) {
                         </DropdownButton>
                     </ButtonToolbar>
                     <p className="lg-score">
-                        84<span>分</span>
+                        58<span>分</span>
                     </p>
-                    <p className="sm-text">您的综合分数打败了81%的人，数据完整性为70%</p>
+                    <p className="sm-text">您的综合分数打败了52%的人，数据完整性为100%</p>
                 </Carousel.Caption>
             </Banner>
             <DinnerEnergyRatio />

@@ -21,7 +21,7 @@ const defaultProps = {
 };
 
 const data = {
-    score: 81,
+    score: 77,
     energy: { value: 600, min: 600, max: 720 },
 };
 export default function Dinner({ history }) {
