@@ -59,7 +59,7 @@ export default function MacroEnergyPie({ label: dinner_label }) {
             <p className="title">{dinner_label || "全天"}能量来源</p>
             <p className="content">
                 {
-                    "三种产能营养素在体内都有特定的生理功能，不当的摄入比例易对人体造成额外负担，增加各项疾病的风险。根据我国的饮食习惯，成人碳水化合物以占总能量供给的55%-65%，脂肪占20%-30%，蛋白质占10%-15%为宜。您本日的能量来源情况为："
+                    "三种产能营养素在体内都有特定的生理功能，合理的摄入比例有助于学生的生长发育、生理及身体活动的需要。"
                 }
             </p>
             <div style={{ width: "100%", height: 300 }}>

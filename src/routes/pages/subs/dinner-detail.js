@@ -51,7 +51,7 @@ export default function DinnerDetail({ label: dinner_label }) {
             <p className="title">用餐明细</p>
             {!dinner_label && (
                 <p className="content">
-                    全天各餐食物分配的比例最好是午餐最多，早餐和晚餐较少，不当的三餐比例会增加肥胖、糖尿病等风险。您本日各餐提供的能量为：
+                    您本日就餐的食物如下，请根据近期营养素获取情况调整饮食：
                 </p>
             )}
             {filterData.map(detail => (

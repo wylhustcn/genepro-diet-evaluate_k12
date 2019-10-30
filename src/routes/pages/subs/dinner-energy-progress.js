@@ -46,8 +46,7 @@ export default function DinnerEnergyProgress() {
         <div className="progress-container">
             <p className="title">各餐能量比</p>
             <p className="content">
-                全天各餐食物分配的比例最好是午餐最多，早餐和晚餐
-                较少，不当的三餐比例会增加肥胖、糖尿病等风险。 您本日各餐提供的能量为：
+                全天各餐食物分配的比例最好是午餐最多，早餐和晚餐较少，不当的三餐比例会增加肥胖风险，也会导致学习期间能量不足的问题。您本日各餐提供的能量为：
             </p>
             {data.map(({ label, ratio, theme, status, mark }) => (
                 <Row key={label} className="row-progress">
@@ -66,7 +65,7 @@ export default function DinnerEnergyProgress() {
                     </Col>
                 </Row>
             ))}
-            <p className="notify">参考范围：早餐20%-30%，午餐35%-45%，晚餐25%-35%</p>
+            <p className="notify">参考范围：早餐25%-30%，午餐30%-40%，晚餐30%-35%</p>
         </div>
     );
 }

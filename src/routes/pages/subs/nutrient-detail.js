@@ -28,7 +28,8 @@ export default function NutrientDetail() {
         <div className="common-container">
             <p className="title">营养素获取情况</p>
             <p className="content">
-                营养素的缺乏会引起人体出现各种亚健康症状，如疲劳、头晕、脱发、肥胖、工作效率低下等，故保障各项营养物质的获取对于改善人体健康状况来说尤为关键。您本餐对于各项营养素的获取情况为：
+                充足的营养是中小学生生理、情绪以及行为健康发展的基础。营养素缺乏或不均衡会引起如贫血、精力不济、注意力不集中、记忆力下降、近视风险增加、肥胖等，因此营养素的摄入情况需要重点关注。
+您本日各项营养素的获取情况为：
             </p>
             <Table data={filterData} />
             <Button onClick={() => setExpand(!expand)} variant="light" block>
